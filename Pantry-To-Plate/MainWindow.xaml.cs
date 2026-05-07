@@ -20,5 +20,12 @@ namespace Pantry_To_Plate
         {
             InitializeComponent();
         }
+
+
+
+        private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
     }
 }
