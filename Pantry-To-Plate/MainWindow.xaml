@@ -293,7 +293,10 @@
                 Canvas.Left="374"
                 Canvas.Top="261"
                 HorizontalAlignment="Left"
-                VerticalAlignment="Top"/>
+                VerticalAlignment="Top">
+            <Ellipse Height="168" Width="168" HorizontalAlignment="Left" Canvas.Top="10" VerticalAlignment="Center" Canvas.Left="20"></Ellipse>
+            <Button Content="Rezept Hinzufügen" Height="104" Canvas.Left="37" Canvas.Top="42" Width="134"/>
+        </Canvas>
 
         <Canvas Name="canvasMahlzeitHin"
                 Panel.ZIndex="2"
@@ -303,7 +306,9 @@
                 Canvas.Left="603"
                 Canvas.Top="261"
                 HorizontalAlignment="Left"
-                VerticalAlignment="Center"/>
+                VerticalAlignment="Center">
+            <Button Content="Mahlzeit Hinzufügen" Height="104" Canvas.Left="37" Canvas.Top="42" Width="134" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Canvas>
 
         <Canvas Name="canvasLebensmittelHin"
                 Panel.ZIndex="2"
@@ -313,7 +318,9 @@
                 Canvas.Left="374"
                 Canvas.Top="517"
                 HorizontalAlignment="Center"
-                VerticalAlignment="Center"/>
+                VerticalAlignment="Center">
+            <Button Content="Neues Lebensmittel" Height="104" Canvas.Left="37" Canvas.Top="42" Width="134" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Canvas>
 
         <Canvas Name="Canvas_Fitnessaktivität"
                 Panel.ZIndex="2"
@@ -323,7 +330,9 @@
                 Canvas.Left="603"
                 Canvas.Top="517"
                 HorizontalAlignment="Left"
-                VerticalAlignment="Center"/>
+                VerticalAlignment="Center">
+            <Button Content="Fitnessaktivität Hinzufügen" Height="104" Canvas.Left="16" Canvas.Top="42" Width="164" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Canvas>
 
     </Canvas>
 
