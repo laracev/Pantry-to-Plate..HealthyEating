@@ -10,8 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Usercontrols\" />
-    <Folder Include="srvs\" />
+    <Compile Remove="srvs\**" />
+    <Compile Remove="Usercontrols\**" />
+    <EmbeddedResource Remove="srvs\**" />
+    <EmbeddedResource Remove="Usercontrols\**" />
+    <None Remove="srvs\**" />
+    <None Remove="Usercontrols\**" />
+    <Page Remove="srvs\**" />
+    <Page Remove="Usercontrols\**" />
   </ItemGroup>
 
 </Project>

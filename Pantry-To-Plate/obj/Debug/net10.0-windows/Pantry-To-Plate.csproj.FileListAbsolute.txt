@@ -19,3 +19,34 @@ C:\Users\cevik\Documents\Pantry-To-Plate\Pantry-To-Plate\obj\Debug\net10.0-windo
 C:\Users\cevik\Documents\Pantry-To-Plate\Pantry-To-Plate\obj\Debug\net10.0-windows\ref\Pantry-To-Plate.dll
 C:\Users\cevik\Documents\Pantry-To-Plate\Pantry-To-Plate\obj\Debug\net10.0-windows\Windows\MainWindow.g.cs
 C:\Users\cevik\Documents\Pantry-To-Plate\Pantry-To-Plate\obj\Debug\net10.0-windows\Windows\MainWindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\bin\Debug\net10.0-windows\Pantry-To-Plate.exe
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\bin\Debug\net10.0-windows\Pantry-To-Plate.deps.json
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\bin\Debug\net10.0-windows\Pantry-To-Plate.runtimeconfig.json
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\bin\Debug\net10.0-windows\Pantry-To-Plate.dll
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\bin\Debug\net10.0-windows\Pantry-To-Plate.pdb
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\EinstellungenWindow.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\fitnessaktivitäthinzufügenwindow.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\MahlzeitHinzufügenWindow.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\PantryWindow.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\WindowRezepte.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate_MarkupCompile.cache
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate_MarkupCompile.lref
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\EinstellungenWindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\fitnessaktivitäthinzufügenwindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\MahlzeitHinzufügenWindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\PantryWindow.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\windows\WindowRezepte.baml
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.g.resources
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.AssemblyInfoInputs.cache
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.AssemblyInfo.cs
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.csproj.CoreCompileInputs.cache
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.sourcelink.json
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.dll
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\refint\Pantry-To-Plate.dll
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.pdb
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\Pantry-To-Plate.genruntimeconfig.cache
+C:\Users\cevik\Documents\pantry to plate 1.0\Pantry-To-Plate\obj\Debug\net10.0-windows\ref\Pantry-To-Plate.dll

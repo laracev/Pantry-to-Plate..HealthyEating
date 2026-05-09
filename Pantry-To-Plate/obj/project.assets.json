@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cevik\\Documents\\Pantry-To-Plate\\Pantry-To-Plate\\Pantry-To-Plate.csproj",
+      "projectUniqueName": "C:\\Users\\cevik\\Documents\\pantry to plate 1.0\\Pantry-To-Plate\\Pantry-To-Plate.csproj",
       "projectName": "Pantry-To-Plate",
-      "projectPath": "C:\\Users\\cevik\\Documents\\Pantry-To-Plate\\Pantry-To-Plate\\Pantry-To-Plate.csproj",
+      "projectPath": "C:\\Users\\cevik\\Documents\\pantry to plate 1.0\\Pantry-To-Plate\\Pantry-To-Plate.csproj",
       "packagesPath": "C:\\Users\\cevik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cevik\\Documents\\Pantry-To-Plate\\Pantry-To-Plate\\obj\\",
+      "outputPath": "C:\\Users\\cevik\\Documents\\pantry to plate 1.0\\Pantry-To-Plate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

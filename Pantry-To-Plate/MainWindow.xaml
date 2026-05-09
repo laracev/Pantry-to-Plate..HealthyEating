@@ -65,7 +65,7 @@
                     Background="White"
                     Foreground="#333333"
                     HorizontalAlignment="Center"
-                    Width="355"/>
+                    Width="355" Click="Button_Click"/>
         </StackPanel>
 
         <!-- Logo -->

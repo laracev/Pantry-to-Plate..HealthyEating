@@ -1,1 +1,2 @@
-readme
+9.05 - Lara:
+hab mal angefangen das Einstellungsfesnter und die logik zu machen. hab die klasse userinfo erstellt, wo man das kalorienziel empehlung berechnen kann (hab das schon im window gemacht, man muss es nur noch speichern und so paar wenig sachen)

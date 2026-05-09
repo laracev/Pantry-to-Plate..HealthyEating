@@ -11,5 +11,11 @@
     <Compile Update="windows\MahlzeitHinzufügenWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="windows\PantryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\WindowRezepte.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -5,16 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pantry_To_Plate.windows"
         mc:Ignorable="d"
-        Title="EinstellungenWindow" Height="450" Width="800">
+        Title="EinstellungenWindow" Height="500" Width="800">
     <Grid>
-        <Label Content="Größe eingeben: &#xD;&#xA;(cm)" HorizontalAlignment="Left" Height="41" Margin="32,26,0,0" VerticalAlignment="Top" Width="146"/>
-        <Label Content="Gewicht eingeben:&#xD;&#xA;(Kg)" HorizontalAlignment="Left" Height="45" Margin="32,201,0,0" VerticalAlignment="Top" Width="113"/>
-        <Label Content="tageskalorienziel:" HorizontalAlignment="Left" Height="35" Margin="229,26,0,0" VerticalAlignment="Top" Width="165"/>
-        <Button Content="ziel Empfehlung berechnen" HorizontalAlignment="Left" Height="35" Margin="427,72,0,0" VerticalAlignment="Top" Width="163"/>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="236,72,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="170"/>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="20,72,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="170" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="35" Margin="20,246,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="170" TextChanged="TextBox_TextChanged_1"/>
-        <Button Content="eingetragene Mahlzeiten&#xD;&#xA;anzeigen" HorizontalAlignment="Left" Height="43" Margin="27,311,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label Content="Tageskalorienziel:" HorizontalAlignment="Left" Height="34" Margin="54,276,0,0" VerticalAlignment="Top" Width="166"/>
+        <TextBox Name="ziel" HorizontalAlignment="Left" Height="35" Margin="52,327,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="170" TextChanged="TextBox_TextChanged_3"/>
+        <Button Background="GhostWhite" Content="eingetragene Mahlzeiten&#xD;&#xA;anzeigen" HorizontalAlignment="Left" Height="43" Margin="44,35,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click_2"/>
+        <Button Background="GhostWhite" Content="Werte Speichern und &#xD;&#xA;Einstellungen schließen" HorizontalAlignment="Left" Height="43" Margin="44,131,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click_3"/>
+        <Button Background="GhostWhite" Content="Einstellungen Schließen" HorizontalAlignment="Left" Height="43" Margin="44,83,0,0" VerticalAlignment="Top" Width="162" Click="Button_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="414" Margin="529,0,0,0" VerticalAlignment="Center" Width="245">
+            <Label Content="Diätziel:" Height="25" Width="166"/>
+            <ComboBox Name="diätzielCombo" Height="26" Width="164" SelectionChanged="ComboBox_SelectionChanged">
+                <Label Name="zunehmenComboans" Content="Gewicht Zunehmen"/>
+                <Label Name="haltenComboans" Content="Gewicht Halten"/>
+                <Label Name="abnehmenComboans" Content="Gewicht Abnehmen"/>
+            </ComboBox>
+            <Label Content="Alltagstätigkeit:" Height="27" Width="159" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.088"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <ComboBox Name="AlltagCombo" Height="28" Width="164" SelectionChanged="ComboBox_SelectionChanged_1">
+
+                <Label Name="LPal" Content="nur liegend"/>
+                <Label Name="MLPal" Content="Meist Liegend"/>
+                <Label Name="NSPal" Content="Nur Sitzend (z.B. Büro)"/>
+                <Label Name="ÜSPal" Content="Überwiegend Sitzend (z.B. Schüler;Lehrer"/>
+                <Label Name="VSGPal" Content="Überwiegend Stehend/Gehend (z.B. Frieseur)"/>
+                <Label Name="VKPal" Content="Vorwiegend Körperlich (z.B. Bauarbeiter, Sportler)"/>
+            </ComboBox>
+            <Label Content="Alter:" Height="26" Width="164" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.088"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <TextBox Name="ageans" Height="20" TextWrapping="Wrap" Text="0" Width="166" TextChanged="TextBox_TextChanged_2"/>
+            <Label Content="Geschlecht:" Height="26" Width="159" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.088"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <ComboBox Name="Geschlechtcombo" Height="19" Width="164" SelectionChanged="ComboBox_SelectionChanged_2">
+                <Label Name="malec" Content="Männlich"/>
+                <Label Name="femc" Content="Weiblich"/>
+            </ComboBox>
+            <Label Content="Gewicht eingeben:&#xA;(Kg)" Height="47" Width="168"/>
+            <TextBox Name="Gewichteingabe" Height="21" TextWrapping="Wrap" Text="0" Width="170" TextChanged="TextBox_TextChanged_1"/>
+            <Label Content="Größe eingeben: &#xA;(cm)" Height="40" Width="146"/>
+            <TextBox Name="größeeingabe" Height="21" TextWrapping="Wrap" Text="0" Width="170" TextChanged="TextBox_TextChanged"/>
+            <Label></Label>
+            <Button Background="GhostWhite" Content="Empfehlung für das &#xA;Tagesziel Berechnen&#xD;&#xA;und Einfügen" Height="59" Width="164" Click="Button_Click_1"/>
+        </StackPanel>
+
 
     </Grid>
 </Window>

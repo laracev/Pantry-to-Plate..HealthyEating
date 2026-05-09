@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Pantry_To_Plate.mods;
+using Pantry_To_Plate.windows;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,12 +22,22 @@ namespace Pantry_To_Plate
         {
             InitializeComponent();
         }
-
+        public userinfo user;
 
 
         private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            EinstellungenWindow win = new EinstellungenWindow();
+
+
+            win.ShowDialog();
+
+            
         }
     }
 }
